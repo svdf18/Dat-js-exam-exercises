@@ -19,6 +19,28 @@
     <p>Users.: <span id="user-count"></span></p>
     <p>Guests: <span id="guest-count"></span></p>
 
+    <form id="create-user-form">
+        <label for="input-user-name">Name:</label>
+        <input type="text" id="input-user-name" required>
+      
+        <label for="input-user-active">Active:</label>
+        <select id="input-user-active" required>
+            <option value="true">Active</option>
+            <option value="false">Inactive</option>
+        </select>
+        
+      
+        <label for="input-user-role">Role:</label>
+        <select id="input-user-role" required>
+          <option value="Admin">Admin</option>
+          <option value="User">User</option>
+          <option value="Guest">Guest</option>
+        </select>
+      
+        <button type="submit">Create User</button>
+      </form>
+      
+
     <script src="script.js"></script>
 </body>
 </html>
