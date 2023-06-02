@@ -18,11 +18,20 @@
         <hr />
     </header>
 
+    <section>
+        <label for="select-sort-by">Sort by: </label>
+        <select id="select-sort-by">
+            <option value="" selected>Not selected</option>
+            <option value="name">Name</option>
+            <option value="email">Email</option>
+        </select>
+    </section>
+
     <main>
         <ul id="teachers-list"></ul>
     </main>
 
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 
 </html>
