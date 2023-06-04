@@ -40,3 +40,5 @@ const courses = [
         teacher: "Tine Jensen"
     }
 ];
+
+export {courses}
